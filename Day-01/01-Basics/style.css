@@ -16,9 +16,9 @@ li{
     margin-top: 3px;
 }
 
-div{
-    display: inline;
-}
-span{
-    display: block;
+.bought{
+    color : red;
+    text-decoration: line-through;
+    font-style: italic;
+    font-weight: bold;
 }
