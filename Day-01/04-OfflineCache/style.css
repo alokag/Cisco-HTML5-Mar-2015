@@ -1,0 +1,25 @@
+.listHeading {
+        border-top-width : 2px;
+        border-top-style:   solid;
+        border-bottom-width : 2px;
+        border-bottom-style:   solid;
+        padding: 10px;
+    }
+#groceryList{
+    width: 40%;
+}
+li{
+    list-style: none;
+    display: block;
+    border: 1px solid gray;
+    background-color: #e7e7e7;
+    padding: 2px;
+    margin-top: 3px;
+}
+
+.bought{
+    color : red;
+    text-decoration: line-through;
+    font-style: italic;
+    font-weight: bold;
+}
