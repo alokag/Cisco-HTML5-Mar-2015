@@ -14,6 +14,7 @@
 
       function connect() {
         source = new EventSource("stream");
+          console.dir(source);
         source.addEventListener("message", function(event) {
           output.textContent = event.data;
         }, false);
